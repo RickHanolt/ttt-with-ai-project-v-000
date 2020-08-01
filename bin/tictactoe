@@ -17,17 +17,17 @@ when 1
   new_game = Game.new
   new_game.play
 when 2
-  new_game = Mixed_Game.new
+  new_game = MixedGame.new
   new_game.play
 when 3
-  new_game = Computer_Game.new
+  new_game = ComputerGame.new
   new_game.play
 when 4
   counter = 0
   until counter == 100
-    new_game = War_Game.new
+    new_game = WarGame.new
     new_game.play
     counter += 1
   end
-  puts War_Game.all
+  puts WarGame.all
 end

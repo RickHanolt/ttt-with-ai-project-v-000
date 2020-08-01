@@ -1,6 +1,6 @@
 require 'pry'
 
-class Computer_Game
+class ComputerGame
   attr_accessor :board, :player_1, :player_2
 
   WIN_COMBINATIONS = [
